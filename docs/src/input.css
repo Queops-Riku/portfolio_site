@@ -7,7 +7,7 @@ body nav ul li a:hover {
 }
 
 body {
-  background-color: #2c2c2c;
+  background-color: #252525;
 }
 
 .linkedin {
@@ -62,14 +62,13 @@ body {
 .container {
   display: flex; /* Usa flexbox para organizar as categorias horizontalmente */
   justify-content: center; /* Centraliza os itens do menu */
-  flex-wrap: wrap; /* Permite que as categorias quebrem linha se necessário */
-  gap: 20px; /* Espaçamento entre as categorias */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha */
+  gap: 50px; /* Espaçamento entre as categorias */
   margin: 0 auto;
-  resize: both;
 }
 
 .category {
-  background-color: #414141; /* Cor de fundo das categorias */
+  background-color: #3a3a3a; /* Cor de fundo das categorias */
   padding: 20px; /* Padding ao redor das categorias */
   text-align: center;
   border-width: 3px;
@@ -77,30 +76,27 @@ body {
   border-color: cyan;
   border-radius: 50px;
   border-radius: 8px; /* Borda arredondada */
+  word-wrap: break-word; /* Permite que o texto quebre linha no container */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra ao redor das categorias */
-  width: 30%; /* Largura das categorias, ajustável conforme necessário */
+  width: 45%; /* Largura das categorias, ajustável conforme necessário */
 }
 
 @keyframes animacao {
   0%,
-  20% {
+  24% {
     content: "Programador";
   }
-  21%,
-  40% {
+  25%,
+  49% {
     content: "Estudante";
   }
-  41%,
-  60% {
+  50%,
+  74% {
     content: "Web Developer";
   }
-  61%,
-  80% {
-    content: "Software Engineer";
-  }
-  81%,
+  75%,
   100% {
-    content: "Maluco";
+    content: "Software Engineer";
   }
 }
 

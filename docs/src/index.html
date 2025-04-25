@@ -10,29 +10,30 @@
 </head>
 
 <body>
-  <header class="elemento h-240 text-white">
-    <div class="flex justify-between mt-0 pt-20 pr-25 pl-40">
-      <h1 class="text-[40px] pl-6 text-cyan-300">Quéops</h1>
+  <header class="elemento h-186 sm:h-100 md:h-200 2xl:h-240 text-white">
+    <div class="hidden sm:flex justify-between">
+      <h1 class="pl-6 mt-6 text-[30px] 2xl:pl-50 2xl:mt-10 2xl:text-[40px] text-cyan-300">Quéops</h1>
       <nav>
-        <ul class="flex gap-15 text-[22px] text-cyan-300">
+        <ul class="pl-6 pr-6 mt-15 sm:flex sm:gap-2 md:gap-3 xl:gap-10 text-[10px] sm:text-[12px] md:text-[18px] 2xl:mr-15 2xl:text-[25px] text-cyan-300">
           <li><a href="#conhecimentos">Conhecimentos</a></li>
-          <li><a href="#certificados-e-educacao">Certificados e Educação</a></li>
+          <li><a href="#certificados-e-educacao">Educação</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
-          <li><a href="#gostos-pessoais">Gostos Pessoais</a></li>
         </ul>
       </nav>
     </div>
+
     <div class="flex items-center">
       <div class="w-1/3">
-        <img src="imagens/frieren.jpg" alt="Descrição da imagem" class="box-border w-[500px] h-[600px] rounded-lg pt-[15px] pl-[20px] imginicial" />
+        <h1 class="mb-10 pl-13 text-[20px] md:text-[30px] 2xl:text-[40px] text-cyan-300 md:hidden">Quéops</h1>
+        <img src="imagens/frieren.jpg" alt="Uma foto minha" class="box-border rounded-lg translate-x-[20px] xl:translate-y-[60px] imginicial w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] 2xl:w-[500px] 2xl:h-[600px] " />
       </div>
-      <div class="w-2/3 pl-60">
-        <h1 class="text-[80px]">Olá, sou Quéops</h1>
-        <h1 class="text-[70px] texto-animado">Eu sou um </h1>
-        <h2 class="text-[20px] mt-6 pr-50">Gosto da área de programação, e por isso a escolhi como vocação. Ainda estou evoluindo e aprendendo novas tecnologias. Estou buscando oportunidades para crescer profissionalmente e aplicar os meus conhecimentos, além de aprender ainda mais</h2>
+      <div class="w-2/3 mt-10 sm:mt-20 pl-8 md:pt-10 2xl:pl-60">
+        <h1 class="text-[30px] sm:text-[30px] md:text-[40px] 2xl:text-[80px]">Olá, sou Quéops</h1>
+        <h1 class="text-[18px] sm:text-[25px] md:text-[30px] 2xl:text-[70px] texto-animado">Eu sou um </h1>
+        <h2 class="mt-6 text-[17px] sm:text-[10px] md:text-[15px] 2xl:text-[20px] 2xl:mr-90">Gosto da área de programação, e por isso a escolhi como vocação. Ainda estou evoluindo e aprendendo novas tecnologias. Estou buscando oportunidades para crescer profissionalmente e aplicar os meus conhecimentos, além de aprender ainda mais</h2>
         <div class="mx-2 mt-15 flex gap-5">
-          <button onclick="window.location.href='https://www.linkedin.com/in/qu%C3%A9ops-oliveira-ramos-b984aa2b7/';" class="h-16 w-16 rounded-full ">
+          <button onclick="window.location.href='https://www.linkedin.com/in/qu%C3%A9ops-oliveira-ramos-b984aa2b7/';" class="h-16 w-16 rounded-full">
             <img src="imagens/linkedin.png">
           </button>
           <button onclick="window.location.href='https://github.com/Queops-Riku';" class="h-16 w-16 rounded-full">
@@ -46,7 +47,7 @@
 
   <main>
     <section id="conhecimentos">
-      <h2 class="mb-15 mt-15 text-[30px] categoria">Tecnologias que conheço / Estou estudando & Conhecimentos</h2>
+      <h2 class="mb-15 mt-15 text-[30px] categoria">Tecnologias que domino</h2>
       <div class="container">
         <div class="category">
           <h3 class="mb-5 text-[18px] categoria">Front-End:</h3>
@@ -95,70 +96,54 @@
         </div>
       </div>
     </section>
-    <section id="certificados e educacao">
-      <h2 class="mb-15 mt-15 text-[30px] categoria">Meus Certificados e minha Educação</h2>
+
+    <section id="certificados-e-educacao">
+      <h2 class="mb-15 mt-15 text-[30px] categoria">Minha Educação</h2>
       <div class="container">
         <div class="category">
-          <h3 class="mb-5 text-[18px] categoria">Certificados:</h3>
-          <ul>
-            <li></li>
-            <li> Vazio por enquanto </li>
-            <li></li>
-          </ul>
-        </div>
-        <div class="category">
           <h3 class="mb-5 text-[18px] categoria">Educação:</h3>
-          <ul>
-            <li class="mb-5">Cefet-Petrópolis: Curso médio integrado ao técnico em telecomunicações</li>
-            <li>Faeterj-Petrópolis: Cursando o curso superior de Tecnologia da Informação e Comunicação</li>
+          <ul class="itens text-[18px]">
+            <li class="mb-5">Cefet-Petrópolis: Ensino médio integrado ao técnico em telecomunicações</li>
+            <li>Faeterj-Petrópolis: Cursando o curso superior de Tecnologia da Informação e Comunicação (Quarto Período)</li>
           </ul>
         </div>
       </div>
     </section>
+
     <section id="projetos">
       <h2 class="mb-15 mt-15 text-[30px] categoria">Meus Projetos:</h2>
       <div class="container">
         <div class="category">
-          <ul>
+          <ul class="itens text-[18px]">
+            <h3 class="mb-5 mt-5 text-[18px] categoria">Este site:</h3>
             <li>Este exato site que você está vendo!</li>
             <li>Ele foi feito utilizando HTML, CSS e Tailwind CSS 4.0</li>
-            <li>Link GitHub: <a href=""></a></li>
+            <li>Além disso, ele é completamente responsivo à outros tipos de tela</li>
+            <li>isso foi feito utilizando o Tailwind CSS 4.0</li>
+            <li>Link GitHub: <a href="https://github.com/Queops-Riku/portfolio_site" class="text-blue-500 underline hover:text-blue-700 hover:underline">Site de Portfólio</a></li>
           </ul>
         </div>
         <div class="category">
-          <ul>
+          <ul class="itens text-[18px]">
+            <h3 class="mb-5 text-[18px] categoria">Calculadora Javascript:</h3>
             <li>Uma calculadora simples utilizando HTML, CSS e Javascript</li>
-            <li>Link Github: <a href=""></a></li>
+            <li>Link Github: <a href="https://github.com/Queops-Riku/front-end" class="text-blue-500 underline hover:text-blue-700 hover:underline">Calculadora e outros programas</a></li>
           </ul>
         </div>
       </div>
     </section>
+
     <section id="contato">
       <h2 class="mb-15 mt-15 text-[30px] categoria">Meu contato:</h2>
       <div class="container">
         <div class="category">
-          <dl class="itens">
+          <dl class="itens text-[18px]">
+            <h3 class="mb-2 text-[18px] categoria">Email:</h3>
             <dd>Email: queopsoliveiraramos@gmail.com</dd>
+            <h3 class="mb-2 mt-5 text-[18px] categoria">Telefone:</h3>
             <dd>Telefone: (24) 99323-3524</dd>
           </dl>
         </div>
-      </div>
-    </section>
-    <section id="gostos-pessoais">
-      <h2 class="mb-15 mt-15 text-[30px] categoria">Gostos Pessoais:</h2>
-      <div class="galeria">
-        <img src="imagens/sylveon.png" alt="Sylveon" class="imagem-galeria">
-        <img src="imagens/vaporeon.png" alt="Vaporeon" class="imagem-galeria">
-        <img src="imagens/umbreon.png" alt="Umbreon" class="imagem-galeria">
-        <img src="imagens/fireemblem.png" alt="Fire Emblem" class="imagem-galeria">
-        <img src="imagens/escudo.png" alt="Escudo de Zelda" class="imagem-galeria">
-        <img src="imagens/fortnite.png" alt="Fortnite" class="imagem-galeria">
-        <img src="imagens/miku.png" alt="Miku" class="imagem-galeria">
-        <img src="imagens/suisei.png" alt="Suisei" class="imagem-galeria">
-        <img src="imagens/bocchi.png" alt="Bocchi" class="imagem-galeria">
-        <img src="imagens/vergil.png" alt="Vergil" class="imagem-galeria">
-        <img src="imagens/xadrez.png" alt="Xadrez" class="imagem-galeria">
-        <img src="imagens/zweihander.png" alt="Zweihander" class="imagem-galeria">
       </div>
     </section>
   </main>
